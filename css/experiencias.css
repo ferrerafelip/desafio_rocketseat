@@ -1,0 +1,28 @@
+.experiencias h2,
+.experiencias h3,
+.experiencias p{
+  color: var(--text-color);
+}
+
+.experiencias h2{
+  font: 700 1.25rem/1.5 "Merriweather Sans";
+  margin-bottom: 20px;
+}
+
+.experiencias ul li h3{
+  font: 700 1rem/1.5 "Merriweather Sans";
+}
+
+.experiencias ul li p{
+  font: 400 0.75rem/1.5 "Merriweather Sans";
+}
+
+
+.experiencias ul{
+  margin-left: 40px;
+  list-style: disc;
+}
+
+.experiencias ul li{
+  margin-bottom: 30px;
+}

@@ -1,0 +1,169 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+.projetos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projetos.card {
+  margin: 2.5rem 0rem 0rem 0rem;
+  max-width: 46.5rem;
+}
+
+.projetos h2,
+.projetos a {
+  color: var(--text-color);
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.repositorio.card {
+  margin-bottom: 0px;
+  padding: 1.5rem;
+  max-width: 21.5rem;
+}
+
+.repositorio h3,
+.repositorio p {
+  color: var(--text-color);
+}
+
+.repositorio h3 {
+  font: 700 1rem/1.125 "Merriweather Sans";
+  margin-bottom: 23px;
+}
+
+.desc {
+  margin-bottom: 50px;
+}
+
+.dados {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: end;
+}
+
+.fav {
+  justify-self: center;
+  position: relative;
+}
+
+.fav::before {
+  content: "";
+  display: inline-block;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  background: url("../img/star.svg");
+  position: absolute;
+  top: -3px;
+  right: 28px;
+}
+
+.branch {
+  position: relative;
+}
+
+.branch::before {
+  content: "";
+  display: inline-block;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  background: url("../img/git-branch.svg");
+  position: absolute;
+  top: -3px;
+  left: -28px;
+}
+
+.js {
+  justify-self: end;
+  position: relative;
+}
+
+.js::before {
+  content: "";
+  display: inline-block;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  background: url("../img/circlejs.svg");
+  position: absolute;
+  right: 70px;
+}
+
+.recente.card {
+  margin: 2.5rem 0rem;
+  max-width: 46.5rem;
+}
+
+.recente h2 {
+  color: var(--text-color);
+}
+
+.post {
+  max-width: 46.5rem;
+  display: grid;
+  grid-template-columns: 148px 1fr;
+}
+
+.post h3,
+.post p {
+  color: var(--text-color);
+}
+
+.post h3 {
+  font: 700 1.125rem/1.5 "Merriweather Sans";
+}
+
+.post p {
+  font: 400 1rem/1.5 "Merriweather Sans";
+  margin-bottom: 20px;
+}
+
+.dados {
+  margin-top: -20px;
+}
+
+.dados a {
+  color: var(--text-color);
+  margin-right: 20px;
+}
+
+@media (max-width: 1200px) {
+  .grid,
+  .grid1 {
+    grid-template-columns: 1fr;
+  }
+  .recent-post {
+    margin: 0 auto;
+  }
+  .projetos.card {
+    max-width: 20rem;
+  }
+  .recente.card {
+    max-width: 20rem;
+    margin-top: 7rem;
+  }
+  .post {
+    grid-template-columns: 1fr;
+  }
+  .post.card {
+    max-width: 20rem;
+  }
+  .post img {
+    display: none;
+  }
+  .post h3 {
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+  }
+}

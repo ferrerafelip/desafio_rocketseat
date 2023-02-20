@@ -1,0 +1,54 @@
+.nome {
+  font: 700 1.43rem/1.125 "Merriweather Sans";
+  margin: 2.5rem 2.5rem;
+}
+
+.nome img{
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  border: solid 2px #00FF00;
+}
+
+.nome h2,
+.nome h3 {
+  text-align: center;
+  color: var(--text-color);
+}
+
+.nome h3 {
+  font: 300 0.81rem/1.125 "Merriweather Sans";
+}
+
+.info-gerais{
+  position: relative;
+}
+
+.info-gerais a{
+  color: var(--text-color);
+  margin-left: 40px;
+}
+
+.info-gerais span{
+  margin-left: 40px;
+}
+
+.info-gerais img{
+  position: absolute;
+  margin-top: 5px;
+}
+
+.info-gerais ul li {
+  line-height: 2.5rem;
+  margin-left: 1rem;
+}
+
+@media (max-width: 1200px){
+  .perfil{
+    margin: 0px auto;
+  }
+  .nome h2{
+    font-size: 1.43rem;
+  }
+}

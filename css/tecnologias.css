@@ -1,0 +1,20 @@
+.tecnologias{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tecnologias h2{
+  grid-column: 1/-1;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.tecnologias p{
+  font: 700 0.75rem/1.125 "Merriweather Sans";
+  text-transform: uppercase;
+  background-color: var(--bg-techs);
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+}

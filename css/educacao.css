@@ -1,0 +1,28 @@
+.educacao h2,
+.educacao h3,
+.educacao p{
+  color: var(--text-color);
+}
+
+.educacao h2{
+  font: 700 1.25rem/1.5 "Merriweather Sans";
+  margin-bottom: 20px;
+}
+
+.educacao ul li h3{
+  font: 700 1rem/1.5 "Merriweather Sans";
+}
+
+.educacao ul li p{
+  font: 400 0.75rem/1.5 "Merriweather Sans";
+}
+
+
+.educacao ul{
+  margin-left: 40px;
+  list-style: disc;
+}
+
+.educacao ul li{
+  margin-bottom: 30px;
+}
